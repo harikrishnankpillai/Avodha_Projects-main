@@ -1,0 +1,15 @@
+  label {
+            color: white;
+        }
+
+        form {
+            margin: auto;
+            padding: 10px;
+            width: max-content;
+            background: linear-gradient(45deg, rgb(53, 58, 49), rgba(65, 214, 77, 0.753));
+        }
+        button{
+          
+            padding: 8px;
+
+        }

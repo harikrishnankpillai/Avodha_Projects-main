@@ -1,0 +1,137 @@
+/* 
+ * Styles for notes pages on Comm-244 website
+ * @author			Alissa Miller
+ * @lastmodified	2010-09-12
+ */
+
+ body {
+	background-color: #fcfcfc;
+	color: #333;
+	font: 1.2em;
+	font-family: corbel, 'lucida grande', helvetica, sans-serif;
+	line-height: 1.4;
+	margin: 25px 50px 50px 50px;
+	max-width: 800px;
+}
+h2 {margin: 2.4em 0 1.2em 0;}
+h3 {margin: 2.4em 0 0 0;}
+
+img {border: 1px solid #333;}
+
+li {margin-bottom: 10px;}
+
+dt {font-weight: bold;}
+
+th, td {border: 1px solid #000; padding: 2px 5px;}
+tr td:first-child {font-weight: bold; color: green;}
+
+/* For CSS Colors page */		
+	#css-colors tr td:first-child {height: 35px; width: 75px;}
+	#css-colors table { float:left; margin:20px 20px 0 0;}
+
+
+code, pre {
+	font-family: Consolas, "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+}
+
+pre {
+	background-color: #fff;
+	border: 1px solid #333;
+	color: #000;
+	overflow: auto;
+	padding: 20px;
+}
+code {}
+
+
+/* Assorted Classes */
+.noborder {border: none;}
+.nofloat {float: none;}
+.addspace {letter-spacing: 5px;}
+.addmargin {margin-right: 20px;}
+.alignleft {clear: left; float: left; margin: 10px 10px 10px 0;}
+.alignright {clear: right; float: right; margin: 10px 0 10px 10px;}
+.clear {clear: both;}
+
+.definition {color: red; font-weight: bold; letter-spacing: 1px}
+.outline {border: 1px solid red; padding: 4px;}
+.highlight {
+	background-color: #ffcccc;
+	background-color: rgba(255,0,0,.1);
+	padding: 2px;
+}
+.comment {color: #999;}
+
+
+.correct {color: green; font-weight: bold;}
+.incorrect {color: red; font-weight: bold;}
+
+.backslash, .forwardslash {
+	font-size: 90px;
+	font-weight: bold;
+	background-color: #fff;
+	border: 1px solid #333;
+	color: #000;
+	float: left;
+	margin: 0 10px 50px 0;
+	padding: 25px;
+	text-align: center;
+	width: 100px;
+}
+
+.aside {
+	background-color: rgb(255,255,220);
+	border: 1px dotted #333;
+	clear: right; 
+	float: right; 
+	margin: 10px 0 10px 20px;
+	padding: 10px 15px 0 15px;
+	width: 300px;
+}
+.aside h3 {margin-top: 0;}
+
+.backlink {
+	clear: both;
+	font-size: 14px;
+	padding: 25px 0 50px 0;
+	text-align: right;
+	width: 100%;
+}
+
+.directory , .directory ul {list-style: none;}
+.directory ul {margin: 5px 0; border-left: 1px #ccc dashed;}
+.directory li {margin-bottom: 0;}
+.directory li img { border: none; float: none; position: relative; margin: 0 5px 0 -25px;}
+
+
+.backlink a {padding: 3px; text-decoration: none;}
+.backlink a:hover {background-color: #ffcccc;}
+
+/* For images page */
+.greenbox {
+	background-color: rgb(200,230,200);
+	border: 1px solid #000;
+	height: 100px;
+	padding: 0 30px;
+}
+.gflogo {
+	border: none;
+	padding: 25px 0 0 25px;
+}
+.gfnote {
+	font-size: 16px;
+	float: right;
+	width: 300px;
+	margin: 25px 0;
+}
+
+/* Fancy Link Styling */
+a[rel~="external"] {
+	background: transparent url(../images/external-link.png) no-repeat top right;
+	padding-right: 22px;
+}
+a[rel$="pdf"], a[href$="pdf"] {
+	background: transparent url(../images/doc_pdf.png) no-repeat top right;
+	padding-right: 22px;
+}

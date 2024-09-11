@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cssstyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CSS - Tutorial</h1>
+        <ul
+            style="text-align: start;color: var(--clr-orange-100);background-color: var(--clr-orange-100);font-size: medium;">
+            <li style="text-align: justify;">
+                <p><strong><b style="font-size: inherit;">Responsive design</b></strong> - CSS offers features like
+                    media queries that enable developers to create responsive layouts that adapt to different screen
+                    sizes and devices, ensuring a consistent user experience.</p>
+            </li>
+            <li style="text-align: justify;">
+                <p><strong><b style="font-size: inherit;">Flexibility and Control</b></strong> - CSS provides precise
+                    control over the presentation of HTML elements, allowing developers to customize layout, typography,
+                    colors, and other visual properties.</p>
+            </li>
+            <li style="text-align: justify;">
+                <p><strong><b style="font-size: inherit;">Consistency and Reusability</b></strong> - Developers can
+                    ensure consistency across the entire website, by defining styles in a central CSS file. Styles can
+                    be reused across multiple pages, reducing redundancy and making updates easier.</p>
+            </li>
+            <li style="text-align: justify;">
+                <p><strong><b style="font-size: inherit;">Search Engine Optimization (SEO)</b></strong> - CSS can be
+                    used to structure content in a way that improves search engine visibility.</p>
+            </li>
+            <li style="text-align: justify;">
+                <p><strong><b style="font-size: inherit;">Ease of Maintenance</b></strong> - Centralized CSS files make
+                    it easier to maintain and update styles across a website. Changes can be applied globally, ensuring
+                    uniformity and reducing the risk of inconsistencies.</p>
+            </li>
+            <li style="text-align: justify;">
+                <p><strong><b style="font-size: inherit;">Faster Page Loading</b></strong> - External CSS files can be
+                    cached by browsers, resulting in faster page loading times for subsequent visits to a website. This
+                    caching mechanism reduces server load and bandwidth consumption.</p>
+            </li>
+        </ul>
+
+        <h4>You can put CSS Style Rule Syntax as follows −</h4>
+        <img src="./css_syntax.gif" class="img-fluid rounded-top" alt="" />
+        <h2>What is Responsive Web Design?</h2>
+        <h4> Media Queries</h4>
+        <p>
+            Media Queries plays an important role in responsive web pages.
+            With media queries you can define different styles for different browser sizes.
+
+        </p>
+        <br>
+        <p>
+
+            Example:
+            Resize the browser window to see that the three elements below will display horizontally on large screens
+            and vertically on small screens:
+        </p>
+        <img src="./media.PNG" alt="">
+        <h3>css property</h3>
+        <img src="./property.png" alt="">
+
+
+        <body>
+            <p class="backlink"><a href="../class3.html">Back to Class Three page »</a></p>
+        
+        <h1>CSS Basic Properties</h1>
+        
+        <p>Here are some basic CSS properties to work with.</p>
+        
+        <ul>
+            <li><a href="#text">Text Properties</a></li>
+            <li><a href="#list">List Properties</a></li>
+            <li><a href="#border">Border Properties</a></li>
+            <li><a href="#font">Font Properties</a></li>
+        </ul>
+        
+        <h2 id="text">Text Properties</h2>
+        
+        <table>
+          <tbody>
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+            <th>Values</th>
+          </tr>
+          <tr>
+            <td>color</td>
+            <td>Sets the color of a text</td>
+            <td>RGB, hex, keyword</td>
+          </tr>
+          <tr>
+            <td>line-height</td>
+            <td>Sets the distance between lines</td>
+            <td>normal, <i>number, length, %</i></td>
+          </tr>
+          <tr>
+            <td>letter-spacing</td>
+            <td>Increase or decrease the space between characters</td>
+            <td>normal, 
+              <i>length</i></td>
+          </tr>
+          <tr>
+            <td>text-align</td>
+            <td>Aligns the text in an element</td>
+            <td>left, 
+              right, 
+              center, 
+              justify</td>
+          </tr>
+          <tr>
+            <td>text-decoration</td>
+            <td>Adds decoration to text</td>
+            <td>none, 
+              underline, 
+              overline, 
+              line-through</td>
+          </tr>
+          <tr>
+            <td>text-indent</td>
+            <td>Indents the first line of text in an element</td>
+            <td><i>length, 
+              %</i></td>
+          </tr>
+          <tr>
+            <td>text-transform</td>
+            <td>Controls the letters in an element</td>
+            <td>none, 
+              capitalize, 
+              uppercase, 
+              lowercase</td>
+          </tr>
+        </tbody>
+        </table>
+        
+        <p>For more information, visit the <a href="http://www.w3schools.com/css/css_text.asp" title="CSS Text">w3schools.com page on CSS Text.</a></p>
+        
+        
+        
+        <hr>
+        <h2 id="list">List Properties</h2>
+        
+        <table>
+          <tbody><tr>
+            <th>Property</th>
+            <th>Description</th>
+            <th>Values</th>
+          </tr>
+          <tr>
+            <td>list-style</td>
+            <td>Sets all the properties for a list in one declaration</td>
+            <td><i>list-style-type, 
+              list-style-position, 
+              list-style-image, 
+            </i>inherit</td>
+          </tr>
+          <tr>
+            <td>list-style-image</td>
+            <td>Specifies an image as the list-item marker</td>
+            <td>URL, 
+            none, 
+              inherit</td>
+          </tr>
+          <tr>
+            <td>list-style-position</td>
+            <td>Specifies where to place the list-item marker</td>
+            <td>inside, 
+              outside, 
+            inherit</td>
+          </tr>
+          <tr>
+            <td>list-style-type</td>
+            <td>Specifies the type of list-item marker</td>
+            <td>none, 
+              disc, 
+              circle, 
+              square, 
+              decimal, 
+              decimal-leading-zero, <br>
+              armenian,
+              georgian, 
+              lower-alpha, 
+              upper-alpha, 
+              lower-greek, <br>
+              lower-latin, 
+              upper-latin, 
+              lower-roman, 
+              upper-roman, 
+              inherit</td>
+          </tr>
+          </tbody></table>
+        
+        <p>For more information, visit the <a href="http://www.w3schools.com/css/css_list.asp" title="CSS List">w3schools.com page on CSS Lists</a></p>
+        
+        
+        <hr>
+        <h2 id="border">Border Properties</h2>
+        
+        <table>
+          <tbody><tr>
+            <th width="20%">Property</th>
+            <th>Description</th>
+            <th>Values</th>
+          </tr>
+          <tr>
+            <td>border</td>
+            <td>Sets all the border properties in one declaration</td>
+            <td><i>border-width, 
+              border-style, 
+              border-color</i></td>
+          </tr>
+          <tr>
+            <td>border-bottom</td>
+            <td>Sets all the bottom border properties in one declaration</td>
+            <td><i>border-bottom-width, 
+              border-bottom-style, 
+              border-bottom-color</i></td>
+          </tr>
+          <tr>
+            <td>border-bottom-color</td>
+            <td>Sets the color of the bottom border</td>
+            <td><i>border-color</i></td>
+          </tr>
+          <tr>
+            <td>border-bottom-style</td>
+            <td>Sets the style of the bottom border</td>
+            <td><i>border-style</i></td>
+          </tr>
+          <tr>
+            <td>border-bottom-width</td>
+            <td>Sets the width of the bottom border</td>
+            <td><i>border-width</i></td>
+          </tr>
+          <tr>
+            <td>border-color</td>
+            <td>Sets the color of the four borders</td>
+            <td><i>color_name, 
+            hex_number, 
+            rgb_number, 
+            </i>transparent, 
+            inherit</td>
+          </tr>
+          <tr>
+            <td>border-left</td>
+            <td>Sets all the left border properties in one declaration</td>
+            <td><i>border-left-width, 
+              border-left-style, 
+              border-left-color</i></td>
+          </tr>
+          <tr>
+            <td>border-left-color</td>
+            <td>Sets the color of the left border</td>
+            <td><i>border-color</i></td>
+          </tr>
+          <tr>
+            <td>border-left-style</td>
+            <td>Sets the style of the left border</td>
+            <td><i>
+              border-style</i></td>
+          </tr>
+          <tr>
+            <td>border-left-width</td>
+            <td>Sets the width of the left border</td>
+            <td><i>border-width</i></td>
+          </tr>
+          <tr>
+            <td>border-right</td>
+            <td>Sets all the right border properties in one declaration</td>
+            <td><i>border-right-width, 
+              border-right-style, 
+              border-right-color</i></td>
+          </tr>
+          <tr>
+            <td>border-right-color</td>
+            <td>Sets the color of the right border</td>
+            <td><i>border-color</i></td>
+          </tr>
+          <tr>
+            <td>border-right-style</td>
+            <td>Sets the style of the right border</td>
+            <td><i>border-style</i></td>
+          </tr>
+          <tr>
+            <td>border-right-width</td>
+            <td>Sets the width of the right border</td>
+            <td><i>border-width</i></td>
+          </tr>
+          <tr>
+            <td>border-style</td>
+            <td>Sets the style of the four borders</td>
+            <td>none, 
+              hidden, 
+              dotted, 
+              dashed, 
+              solid, 
+              double, 
+              groove, 
+              ridge, 
+              inset, 
+              outset, 
+            inherit</td>
+          </tr>
+          <tr>
+            <td>border-top</td>
+            <td>Sets all the top border properties in one declaration</td>
+            <td><i>border-top-width, 
+              border-top-style, 
+              border-top-color</i></td>
+          </tr>
+          <tr>
+            <td>border-top-color</td>
+            <td>Sets the color of the top border</td>
+            <td><i>border-color</i></td>
+          </tr>
+          <tr>
+            <td>border-top-style</td>
+            <td>Sets the style of the top border</td>
+            <td><i>border-style</i></td>
+          </tr>
+          <tr>
+            <td>border-top-width</td>
+            <td>Sets the width of the top border</td>
+            <td><i>border-width</i></td>
+          </tr>
+          <tr>
+            <td>border-width</td>
+            <td>Sets the width of the four borders</td>
+            <td>thin, 
+              medium, 
+              thick, 
+              <i>length, 
+            </i>inherit</td>
+          </tr>
+        </tbody></table>
+        
+        
+        <p>For more information, visit the <a href="http://www.w3schools.com/css/css_border.asp" title="CSS List">w3schools.com page on CSS Borders</a></p>
+        
+        
+        <hr>
+        <h2 id="font">Font Properties</h2>
+        
+        
+        <table>
+          <tbody><tr>
+            <th width="15%">Property</th>
+            <th>Description</th>
+            <th>Values</th>
+          </tr>
+          <tr>
+            <td>font</td>
+            <td>Sets all the font properties in one declaration</td>
+            <td><i>font-style, 
+              font-variant, 
+              font-weight, 
+              font-size/line-height, 
+              font-family, 
+              </i>caption, 
+              icon, 
+              menu, 
+              message-box, 
+              small-caption, 
+              status-bar, 
+            inherit</td>
+          </tr>
+          <tr>
+            <td>font-family
+            </td>
+            <td>Specifies the font family for text</td>
+            <td><i>family-name, 
+              generic-family, 
+            </i>inherit</td>
+          </tr>
+          <tr>
+            <td>font-size</td>
+            <td>Specifies the font size of text</td>
+            <td>xx-small, 
+              x-small, 
+              small, 
+              medium, 
+              large, 
+              x-large, 
+              xx-large, 
+              smaller, 
+              larger<i>, 
+              length, 
+              %, 
+            </i>inherit</td>
+          </tr>
+          <tr>
+            <td>font-style
+            </td>
+            <td>Specifies the font style for text</td>
+            <td>normal, 
+              italic, 
+              oblique, 
+            inherit</td>
+          </tr>
+          <tr>
+            <td>font-variant
+            </td>
+            <td>Specifies whether or not a text should be displayed in a small-caps font</td>
+            <td>normal, 
+              small-caps, 
+            inherit</td>
+          </tr>
+          <tr>
+            <td>font-weight
+            </td>
+            <td>Specifies the weight of a font</td>
+            <td>normal, 
+              bold, 
+              bolder, 
+              lighter, <br>
+              100, 
+              200, 
+              300, 
+              400, 
+              500, 
+              600, 
+              700, 
+              800, 
+              900, 
+            inherit<br>
+            <strong>Careful, many of these are not supported!</strong></td>
+          </tr>
+        </tbody></table>
+        
+        
+        <p>For more information, visit the <a href="http://www.w3schools.com/css/css_font.asp" title="CSS List">w3schools.com page on CSS Font</a></p>
+        
+        
+        <p class="backlink"><a href="../class3.html">Back to Class Three page »</a></p>
+        
+        
+        
+        
+        </body>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<%- include('header.ejs') %>
+    <div class="container">
+        <div class="head">
+            <h2>Right now </h2>
+            <h1>
+                <%= location %>
+            </h1>
+            <h2>.it's <%= description%>
+            </h2>
+        </div>
+
+        <div class="temprature">
+            <img src="https://openweathermap.org/img/wn/<%= icon%>.png " alt="weather icon" />
+            <h1>
+                <%= temp%>&#176;c
+            </h1>
+        </div>
+    </div>
+
+
+
+    <%- include('footer.ejs') %>

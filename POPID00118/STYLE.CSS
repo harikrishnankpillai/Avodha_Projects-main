@@ -1,0 +1,44 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+img{
+    width: 100%;
+
+}
+.eventimg{
+    border-radius:0 10px 0 10px;
+}
+.bg-primary{
+   opacity: .8;
+}
+h4{
+    opacity: 1;
+}
+
+.box-shadow{
+    box-shadow: rgb(27 27 28 / 28%) 0px 7px 29px 0px;
+}
+.footer p {
+    padding: 10px 5px;
+    font-size: 15px;
+   
+}
+.footeremail p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(83, 143, 199);
+}
+li{
+    list-style: disc;
+    margin: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+
+}
+
+body {
+    background-color: black;
+}
+
+.headout {
+    padding: 24px 32px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+
+}
+
+.head {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headleft img {
+    height: 40px;
+    overflow: hidden;
+}
+
+.headright button {
+    width: 76px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #e50914;
+    border: none;
+}
+
+.headright select {
+    width: 126px;
+    height: 32px;
+    border-radius: 3px;
+    background: none;
+}
+
+.imgtop img {
+    height: 100vh;
+    width: 100%;
+}
+
+.bgnone {
+    background: none;
+}
+
+.topfade {
+    position: absolute;
+    background: rgb(0 0 0 / 40%);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    z-index: 1;
+    background-image: linear-gradient(to top, rgb(0 0 0 / 80%) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.topfade h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.topfade p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.topfade h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 1.5rem 0 0 0;
+}
+
+
+.wrper {
+    position: relative;
+}
+
+.emailwraper {
+    width: 70%;
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.emailwraper input {
+    flex-grow: 2;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.767);
+    border: 1px solid white;
+    padding: 15px;
+
+
+}
+
+.emailwraper button {
+    height: 56px;
+    width: 203px;
+    border-radius: 5px;
+    background-color: #e50914;
+
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.padding50 {
+    padding: 0 50px;
+}
+
+.tv {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tvleft {
+    flex-grow: 1;
+    width: 50%;
+    text-align: center;
+}
+
+.tvright {
+    width: 50%;
+    flex-grow: 1;
+}
+
+.tvright img {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+.gif {
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.relative {
+    position: relative;
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.tile {
+    width: 100%;
+    height: 80px;
+    padding: 24px;
+    background-color: #2d2d2d;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tile h3 {
+    font-size: 20px;
+}
+
+.tile span {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+li {
+    list-style: none;
+
+}
+
+.footeremail {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footeremail p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.footer {
+    padding: 20px;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    ;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cards li {
+    color: rgba(255, 255, 255, 0.7);
+    ;
+}
+
+select {
+    background: none;
+}
+
+.footer p {
+    padding: 10px 5px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    ;
+}
+.hruler{
+    width: 100%;
+    height: 5px;
+    background-color: #2d2d2d;
+}
+@media screen and (max-width:576px){
+    .tv{
+        padding: 20px 0;
+        flex-direction: column;
+    }
+    .tvleft{
+        width: 100%;
+    }
+    .tvright{
+        width: 100%;
+    }
+    .colrev{
+        flex-direction: column-reverse;
+    }
+    h2{
+        font-size: 32px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .padding50{
+        padding:  0 20px ;
+    }
+    .emailwraper{
+        width: 90%;
+    }
+}

@@ -1,0 +1,30 @@
+.container {
+    width: 80%;
+    height: 100vh;
+
+    margin: auto;
+    margin-top: 52px;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card {
+
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
